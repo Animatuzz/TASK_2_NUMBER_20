@@ -6,24 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        printWelcomeMessage();
+        System.out.println("Введите последовательно N, M...   (6<=N<=14      1<=M<=4) ");
 
         int N = readVariable();
         int M = readVariable();
 
         chooseCard(N, M);
-
-    }
-
-    static void printWelcomeMessage() {
-
-        System.out.println("Введите последовательно N, M...   (6<=N<=14      1<=M<=4) ");
-
-    }
-
-    static void printErrorMessage() {
-
-        System.out.println("Ошибка!");
 
     }
 
@@ -90,7 +78,7 @@ public class Main {
 
         } else {
 
-            printErrorMessage();
+            System.out.println("Ошибка!");
 
         }
 
