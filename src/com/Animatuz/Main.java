@@ -78,7 +78,7 @@ public class Main {
 
         } else {
 
-            System.out.println("Ошибка!");
+            System.out.println("Ошибка! Введённые данные не входят в диапазон переменных. Пояснение:(6<=N<=14      1<=M<=4)");
 
         }
 
