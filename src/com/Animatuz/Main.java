@@ -11,7 +11,7 @@ public class Main {
         int N = readVariable();
         int M = readVariable();
 
-        resultCard(N, M);
+        chooseCard(N, M);
 
     }
 
@@ -35,7 +35,7 @@ public class Main {
 
     }
 
-    private static void resultCard(int N, int M) {
+    private static void chooseCard(int N, int M) {
 
         if ((N <= 14) & (N >= 6) & (M >= 1) & (M <= 4)) {
 
