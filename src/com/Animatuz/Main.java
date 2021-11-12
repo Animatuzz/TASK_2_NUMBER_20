@@ -27,7 +27,7 @@ public class Main {
 
     }
 
-    private static int readVariable() {
+    static int readVariable() {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -35,7 +35,7 @@ public class Main {
 
     }
 
-    private static void chooseCard(int N, int M) {
+    static void chooseCard(int N, int M) {
 
         if ((N <= 14) & (N >= 6) & (M >= 1) & (M <= 4)) {
 
