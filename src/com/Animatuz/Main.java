@@ -28,10 +28,6 @@ public class Main {
         return value;
     }
 
-    static boolean isType() {
-        return true;
-    }
-
     static void chooseCard(int cardType, int cardSuit) {
         switch (cardType) {
             case 6:
