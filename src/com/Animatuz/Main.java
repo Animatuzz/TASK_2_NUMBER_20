@@ -30,47 +30,21 @@ public class Main {
 
     static void chooseCard(int cardType, int cardSuit) {
         switch (cardType) {
-            case 6:
-                System.out.print("Шестёрка ");
-                break;
-            case 7:
-                System.out.print("Семёрка ");
-                break;
-            case 8:
-                System.out.print("Восмёрка ");
-                break;
-            case 9:
-                System.out.print("Девятка ");
-                break;
-            case 10:
-                System.out.print("Десятка ");
-                break;
-            case 11:
-                System.out.print("Валет ");
-                break;
-            case 12:
-                System.out.print("Дама ");
-                break;
-            case 13:
-                System.out.print("Король ");
-                break;
-            case 14:
-                System.out.print("Туз ");
-                break;
+            case 6 -> System.out.print("Шестёрка ");
+            case 7 -> System.out.print("Семёрка ");
+            case 8 -> System.out.print("Восмёрка ");
+            case 9 -> System.out.print("Девятка ");
+            case 10 -> System.out.print("Десятка ");
+            case 11 -> System.out.print("Валет ");
+            case 12 -> System.out.print("Дама ");
+            case 13 -> System.out.print("Король ");
+            case 14 -> System.out.print("Туз ");
         }
         switch (cardSuit) {
-            case 1:
-                System.out.println("пик ");
-                break;
-            case 2:
-                System.out.println("треф ");
-                break;
-            case 3:
-                System.out.println("бубен ");
-                break;
-            case 4:
-                System.out.println("червей ");
-                break;
+            case 1 -> System.out.println("пик");
+            case 2 -> System.out.println("треф");
+            case 3 -> System.out.println("бубен");
+            case 4 -> System.out.println("червей");
         }
     }
 
