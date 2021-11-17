@@ -22,7 +22,7 @@ public class Main {
             return readVariable(variable, true);
         }
         if (!isType && (value < 1 || value > 4)) {
-            System.out.println("Ошибка! Введённые данные не входят в диапазон переменной. Пояснение:(6<=M<=14)");
+            System.out.println("Ошибка! Введённые данные не входят в диапазон переменной. Пояснение:(1<=M<=4)");
             return readVariable(variable, false);
         }
         return value;
